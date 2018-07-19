@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+.headname{
+  margin-top: 20px;
+    font-size: 18px;
+    width: 0%;
+    padding-left:60px;
+    margin-left: 200px;
+    font-family : 'Times New Roman', Times, serif;
+  }
+  .headg{
+    font-size: 18px;
+    width: 70%;
+    padding-left: 20%;
+    font-family : 'Times New Roman', Times, serif;
+
+  }
+  .headinfo{
+    font-size: 18px;
+    width: 40%;
+    padding-left: 200px;
+    font-family : 'Times New Roman', Times, serif;
+  }
+  .logo{
+    width:50%;
+    height: 100px;
+    margin-left: 340px;
+    margin-right: auto;
+    
+  }
+  /* .down{
+     width: 20px;
+     height: 20px;
+     margin-left: -900px;
+     transform: translateY(70px);
+     background-image: url('./assets/images/arrowDown.png');
+  } */
+ 
+  

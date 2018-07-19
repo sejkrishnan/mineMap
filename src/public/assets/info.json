@@ -1,0 +1,18 @@
+
+    [
+        {"name": "RILLITO QUARRY", "state": "AZ", "nearestTown": "Rillito", "opName" : "CalPortland Company","lat":32.3294167,"lng": -111.121667},
+        {"name": "Freeport-McMoRan Morenci Inc", "state": "AZ", "nearestTown": "Morenci", "opName" : "Freeport-McMoRan Morenci Inc.","lat":33.063333 , "lng": -109.335},
+{"name": "Silver Bell Mining LLC", "state": "AZ", "nearestTown": "Tucson", "opName" : "ASARCO LLC","lat":32.373611,"lng": -111.453889},
+        {"name": "Freeport-McMoRan Bagdad Inc.", "state": "AZ", "nearestTown": "Bagdad", "opName" : "Freeport-McMoRan Bagdad Inc.","lat":34.594722,"lng": -113.168611},
+        {"name": "Ray", "state": "AZ", "nearestTown": "Kearney", "opName" : "ASARCO LLC","lat":34.048889,"lng": -111.093611},
+        {"name": "Pinto Valley Mine", "state": "AZ", "nearestTown": "Miami", "opName" : "Pinto Valley Mining Corp.","lat":33.371389,"lng": -110.94},
+        {"name": "Kayenta Mine", "state": "AZ", "nearestTown": "Kayenta", "opName" : "Peabody Western Coal Company","lat":36.5,"lng": -110.723056},
+        {"name": "Pabco Gypsum Apex Quarry", "state": "NV", "nearestTown": "PABCO Rd", "opName" : "PABCO Building Products LLC","lat":36.195556,"lng": -115.08},
+        {"name": "Barrick Cortez Inc", "state": "NV", "nearestTown": "Crescent Valley", "opName" : "Barrick Cortez Inc.","lat":40.545278,"lng": -116.372222},
+        {"name": "Goldstrike Mine", "state": "NV", "nearestTown": "Carlin", "opName" : "Barrick Goldstrike Mines Inc.","lat":40.713889,"lng": -116.103889},
+        {"name": "Victoria Mine", "state": "NV", "nearestTown": "Wendover", "opName" : "US Mine Corporation","lat":40.328333,"lng": -114.550556},
+        {"name": "PINSON MINE", "state": "NV", "nearestTown": "Golconda", "opName" : "Osgood mining Company, LLC","lat":41.035833,"lng": -117.126389},
+        {"name": "Barrick Cortez Underground", "state": "NV", "nearestTown": "Crescent Valley", "opName" : "Barrick Cortez Inc.","lat":40.545278,"lng": -116.372222},
+        {"name": "SUNRISE GOLD PLACER MINE", "state" : "NV", "nearestTown": "Winnemucca", "opName" : "Sunrise Minerals","lat":40.731944,"lng": -117.949722},
+        {"name": "Exodus", "state" : "NV", "nearestTown": "Carlin", "opName" : "Newmont USA Limited","lat":40.713889,"lng": -116.103889}
+    ]

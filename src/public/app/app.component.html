@@ -1,0 +1,70 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+
+<body>
+    <input type="text" id = "searchBar" placeholder="Search for mines..." 
+       (keyup) ="filterSearch()">
+   <div class= "sidenav">
+    <ul id = "mines" >
+        
+      <li *ngFor= "let m of markers; let i = index" 
+          (click) = "reset(i,m)" [value] = "i" >
+          <button class="a"  >{{m.name}}</button>
+        
+      <br/>
+      <br/>
+      </li>
+      </ul>
+    </div>
+    <div class="main">
+     
+    <ul>
+      <p id = "info" class = "info">
+        <strong>{{content[6]}}</strong> {{content[0]}} <br><br> 
+        <strong>{{content[7]}}</strong> {{content[1]}} <br/><br/>
+        <strong>{{content[8]}}</strong> {{content[2]}} <br/><br/>
+        <strong>{{content[9]}}</strong> {{content[3]}} <br/><br/>
+        <strong>{{content[10]}}</strong> {{content[4]}} <br/><br/>
+        <strong>{{content[11]}}</strong> {{content[5]}} <br/><br/>
+       </p>
+    </ul>
+    <div style="text-align:center">
+        <agm-map 
+        [latitude]="latitude" 
+        [longitude]="longitude" 
+        [zoom] = "zoom"
+        [disableDefaultUI] = false
+        [zoomControl] =  "false"
+        [mapTypeId] = "type">
+        
+        <agm-marker 
+            *ngFor = "let m of markers; let i = index"
+            [latitude]= "m.lat"
+            [longitude]= "m.lng"
+        >
+      
+            <agm-info-window >
+                Name: {{m.name}}
+                <br><br>
+                State: {{m.state}}
+                <br><br>
+                Nearest Town: {{m.nearestTown}}
+                <br><br>
+                Current Operator Name: {{m.opName}}
+                <br><br>
+                Latitude: {{m.lat}}
+                <br><br>
+                Longitude: {{m.lng}}
+            </agm-info-window>
+          </agm-marker>
+        </agm-map>
+        
+      </div>
+  </div>
+    
+  </body>
+
+

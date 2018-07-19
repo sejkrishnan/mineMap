@@ -1,0 +1,93 @@
+agm-map{
+    height: 585px;
+    width: 700px;
+    float:right;
+    margin-top: -260px;
+    margin-left:800px;
+}
+ul{
+list-style-type: none;
+font-size: 14px;
+white-space: nowrap;
+cursor: pointer;
+margin-right: 1125px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+/* ul li: hover{
+    font-size: 14px;
+    background-color: #000000;
+} */
+  
+.info{
+    cursor: auto;
+    vertical-align: 50%;
+    margin-left: 270px;
+    margin-top: -45px;
+    padding-top: -10px;
+    font-size: 13px;
+    display: inline-block;
+    font-family : 'Times New Roman', Times, serif;
+    word-wrap: break-word;
+    padding-left: 20px;
+    width: 20px;
+}
+#searchBar{
+    margin-top: 11.1px;
+    width: 300px;
+    height: 31px;
+    outline: 0;
+    background-image: url('../assets/images/searchbar.png');
+    background-position: 4px 5px;
+    background-repeat: no-repeat;
+    text-indent: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    border-style: solid solid none solid;
+    border: 1px solid lightgrey;
+    
+
+}
+.sidenav{
+    height: 81%;
+    padding-top: 0px;
+    margin-top: 180px; /* Full-height: remove this if you want "auto" height */
+    width: 300px; /* Set the width of the sidebar */
+    position: absolute; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: white; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 5px;
+    border: 1px solid lightgrey;
+    border-style: solid solid none none;
+    margin-bottom: -100px;
+}
+.a{
+    background-color: transparent;
+    width: 400px;
+    height: 70px;
+    margin-top: -21px;
+    margin-left: -40px;
+    align-self:center;
+    border: 1px solid lightgray;
+    padding: 20%;
+    display: inline-block;
+    border-style: solid solid none solid;
+    text-align: center;
+    text-indent: -110px;
+
+}
+.a:hover{
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+.a:focus{
+    outline: 0;
+}
+
+
+
+
+
+
