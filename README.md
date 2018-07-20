@@ -23,6 +23,6 @@
 
     Dont stop this command. Let this run in the background. This command will build your typescript file so that it can run on the browser. Now, If you  make any changes, It will build your project automatically.(Thats the reason we added __--watch__ flag)
 
-* Now go back to the parent folder. ```cd ..``. Now just run
+* Now go back to the parent folder. ```cd ..```. Now just run
 ``` npm start ```
 This will start the server at port 3000. then if you type __http://localhost:3000__, It should render your angular project.
